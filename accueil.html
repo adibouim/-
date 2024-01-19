@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .Rectangle-2{
+            width: 85.35rem;
+            height: 57rem;
+            flex-shrink: 0;
+            background-image: url("accueil.jpg");
+            background-color:   #D9D9D9;
+            background-size: 100%;
+
+        }
+        #Rectangle_1{
+            position: relative;
+            width: 85.35rem;
+            height: 57rem;
+            flex-shrink: 0;
+            background: #1e1e1ecf; 
+            }
+        .Frame-1{
+            display: inline-block;
+            align-items: flex-start;
+            gap: 61px;
+            height: 5rem;
+            width: 100%;
+
+        }
+        .a{
+            color: #fff;
+            /* H6 */
+            font-family: Noto Naskh Arabic;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            float: right;
+            margin-right: 4rem;
+            opacity: 100%;
+
+        }
+        h2{
+            color: #fff;
+            /* H2 */
+            font-family: Noto Naskh Arabic;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+            margin-top: 12.4rem;
+            opacity: 100%;
+            }
+        .par{
+            margin: auto;
+            height: 5.81rem;
+            width: 36.125rem;
+        }
+        sub{
+            color: #fff;
+            /* Subtitle */
+            font-family: Noto Naskh Arabic;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+            opacity: 100%;
+        }
+         .button{
+            display: inline-flex;
+            padding: 5px 48px;
+            gap: 10px;
+            border-radius: 4px;
+            background: #FFF;
+            position: absolute;
+            left: 44.5%;
+        }
+        .button h6{
+            color: #000;
+            /* H6 */
+            font-family: Noto Naskh Arabic;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+        }
+        .content{
+            display: flex;
+            width: 100%;
+            margin-top: 14rem;
+        }
+        .popup{
+            display: inline-flex;
+            padding: 57px 58px;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            gap: 12.886px;
+            border-radius: 4px;
+            background: #FFF;
+            box-shadow: 0px 1px 58.7px 0px rgba(0, 0, 0, 0.10);
+        }
+        .popup svg{
+            width: 56px;
+            height: 56px;
+        }
+        .popup p{
+            color: #000;
+            font-family: Noto Naskh Arabic;
+            font-size: 30.925px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+        }
+        
+        .popup h6{
+            width: 14.5rem;
+            color: #000;
+            text-align: center;
+            /* H6 */
+            font-family: Noto Naskh Arabic;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+        }
+        .description{
+            width: 77.35rem;
+            height: 57rem;
+            background: #FFF;
+            margin-right:4rem ;
+            position: relative;
+            display: flex;
+            flex-direction: row-reverse;        }
+        
+        .description .img{
+            width: 19rem;
+            height: 19rem;
+            flex-shrink: 0;
+            border-radius: 19rem;
+            background-image: url("ellipse2.png");
+            margin-left: 3.5rem;
+            background-size: 100%;
+            
+        }
+        .description .shadow{
+            background: #1e1e1e7e;
+            position: relative;
+            width: 19rem;
+            height: 19rem;
+            border-radius: 19rem;
+        }
+        .description .part{
+            width: 76.35rem;
+            text-align: right ;
+            
+        }
+        .description h2{
+            color: #050505;
+            /* H2 */
+            font-family: Noto Naskh Arabic;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+            text-align: right;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+        .description .par2{
+            width: 40rem;
+            text-align: right;
+            display: inline;
+            right: 0;
+        }
+        .description p{
+            color: #000;
+            /* Subtitle */
+            font-family: Noto Naskh Arabic;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 2rem ;
+        }
+        .description button{
+            display: inline-flex;
+            padding: 5px 48px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 0;
+            
+        }
+        .description h6{
+            color: #000;
+            /* H6 */
+            font-family: Noto Naskh Arabic;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            float: right;
+        }
+        .course{
+            width: 85.35rem;
+            height: 29rem;
+            background-image: url("Rectangle.png"); 
+        }
+        
+
+</style>
+</head>
+<body>
+    <div class="Rectangle-2">
+    <div class="Rectangle-1" id="Rectangle_1">
+        <nav class="Frame-1">
+            <h6 class="a">الرئيسية</h6>
+            <h6 class="a">حولنا</h6>
+            <h6 class="a">البرنامج</h6>
+            <h6 class="a">الدروس</h6>
+            <h6 class="a">تواصل</h6>    
+        </nav>
+        <h2>اكادمية القرآن</h2>
+        <div class="par">
+            <sub>أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم</sub>
+        
+        </div>
+        <button class="button" >
+            <h6>اكتشف اكثر</h6>
+        </button>
+        <div class="content">
+            <div class="popup">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
+                    <path d="M49.3966 4.80667C47.724 4.51858 46.0304 4.37029 44.3332 4.36334C38.5428 4.35859 32.873 6.01901 27.9999 9.14667C23.1143 6.06007 17.4454 4.44041 11.6666 4.48C9.96942 4.48696 8.27579 4.63525 6.60325 4.92334C6.05539 5.01779 5.55927 5.30474 5.20421 5.73252C4.84915 6.1603 4.6585 6.7008 4.66658 7.25667V35.2567C4.66158 35.5995 4.73221 35.9392 4.87343 36.2517C5.01465 36.5641 5.223 36.8416 5.48365 37.0644C5.7443 37.2872 6.05085 37.4498 6.38148 37.5406C6.71211 37.6315 7.05869 37.6483 7.39658 37.59C10.7403 37.0111 14.166 37.1071 17.4721 37.8725C20.7781 38.6379 23.8975 40.0572 26.6466 42.0467L26.9266 42.21H27.1832C27.442 42.3178 27.7196 42.3733 27.9999 42.3733C28.2802 42.3733 28.5578 42.3178 28.8166 42.21H29.0732L29.3532 42.0467C32.0831 40.0127 35.1936 38.5475 38.5003 37.7378C41.8069 36.9282 45.2424 36.7906 48.6032 37.3333C48.9411 37.3917 49.2877 37.3748 49.6183 37.284C49.949 37.1931 50.2555 37.0305 50.5162 36.8077C50.7768 36.585 50.9852 36.3075 51.1264 35.995C51.2676 35.6826 51.3382 35.3428 51.3332 35V7C51.309 6.46836 51.1037 5.961 50.7514 5.56206C50.3992 5.16312 49.9211 4.89659 49.3966 4.80667ZM25.6666 35.8167C21.3496 33.5456 16.5445 32.3603 11.6666 32.3633C10.8966 32.3633 10.1266 32.3633 9.33325 32.3633V9.03C10.1104 8.98522 10.8894 8.98522 11.6666 9.03C16.6445 9.0245 21.5137 10.4853 25.6666 13.23V35.8167ZM46.6666 32.4567C45.8732 32.4567 45.1032 32.4567 44.3332 32.4567C39.4554 32.4537 34.6502 33.6389 30.3332 35.91V13.23C34.4861 10.4853 39.3553 9.0245 44.3332 9.03C45.1104 8.98522 45.8894 8.98522 46.6666 9.03V32.4567ZM49.3966 42.14C47.724 41.8519 46.0304 41.7036 44.3332 41.6967C38.5428 41.6919 32.873 43.3523 27.9999 46.48C23.1268 43.3523 17.4571 41.6919 11.6666 41.6967C9.96942 41.7036 8.27579 41.8519 6.60325 42.14C6.29951 42.1882 6.0083 42.296 5.74636 42.4571C5.48442 42.6183 5.25692 42.8296 5.07693 43.079C4.89695 43.3283 4.76805 43.6108 4.69762 43.9102C4.6272 44.2095 4.61665 44.5199 4.66658 44.8233C4.78516 45.4293 5.13906 45.9635 5.65076 46.309C6.16246 46.6545 6.79024 46.7831 7.39658 46.6667C10.7403 46.0877 14.166 46.1838 17.4721 46.9492C20.7781 47.7146 23.8975 49.1338 26.6466 51.1233C27.0418 51.4047 27.5148 51.5559 27.9999 51.5559C28.485 51.5559 28.9581 51.4047 29.3532 51.1233C32.1023 49.1338 35.2217 47.7146 38.5278 46.9492C41.8338 46.1838 45.2595 46.0877 48.6032 46.6667C49.2096 46.7831 49.8374 46.6545 50.3491 46.309C50.8608 45.9635 51.2147 45.4293 51.3332 44.8233C51.3832 44.5199 51.3726 44.2095 51.3022 43.9102C51.2318 43.6108 51.1029 43.3283 50.9229 43.079C50.7429 42.8296 50.5154 42.6183 50.2535 42.4571C49.9915 42.296 49.7003 42.1882 49.3966 42.14Z" fill="#CBCBCB"/>
+                </svg>
+                <p>البرامج</p>
+                <h6>دروس أحكام التجويد برواية ورش
+                     و رواية حفص تبقى مسجلة لديك
+                      مدى الحياة</h6>
+            </div>
+            <div class="popup">
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="57" viewBox="0 0 58 57" fill="none">
+                    <path d="M38.4858 4.74297H19.514C17.6271 4.74297 15.8175 5.49252 14.4833 6.82673C13.1491 8.16095 12.3996 9.97053 12.3996 11.8574V49.801C12.3979 50.2189 12.5067 50.6298 12.7149 50.9921C12.9231 51.3544 13.2234 51.6553 13.5853 51.8642C13.9458 52.0723 14.3548 52.1819 14.771 52.1819C15.1873 52.1819 15.5963 52.0723 15.9568 51.8642L28.9999 44.3229L42.043 51.8642C42.4044 52.0691 42.8133 52.1754 43.2288 52.1725C43.6442 52.1754 44.0531 52.0691 44.4145 51.8642C44.7764 51.6553 45.0766 51.3544 45.2849 50.9921C45.4931 50.6298 45.6019 50.2189 45.6002 49.801V11.8574C45.6002 9.97053 44.8507 8.16095 43.5165 6.82673C42.1822 5.49252 40.3727 4.74297 38.4858 4.74297ZM40.8573 45.6984L30.1856 39.5325C29.8251 39.3244 29.4162 39.2148 28.9999 39.2148C28.5836 39.2148 28.1747 39.3244 27.8142 39.5325L17.1425 45.6984V11.8574C17.1425 11.2284 17.3924 10.6252 17.8371 10.1805C18.2818 9.73577 18.885 9.48592 19.514 9.48592H38.4858C39.1148 9.48592 39.7179 9.73577 40.1627 10.1805C40.6074 10.6252 40.8573 11.2284 40.8573 11.8574V45.6984Z" fill="#CBCBCB"/>
+                </svg>
+                <p>البرامج</p>
+                <h6>دروس أحكام التجويد برواية ورش
+                     و رواية حفص تبقى مسجلة لديك
+                      مدى الحياة</h6>
+            </div>
+        </div>
+        <div class="description">
+            <div class="img"><div class="shadow"></div></div>
+            <div class="part">
+            <h2>اكادمية القرآن</h2>
+            <div class="par2">
+            <p>أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن.</p>
+            </div>
+            <button>
+                <h6>اكتشف اكثر</h6>
+            </button>
+            </div>
+        </div>
+        <div class="cours">
+            <div class="shadow">
+                <div class="text">
+                    <h2>الدروس</h2>
+                    <sub>
+                        أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن الكريم أكاديمية القرآن.
+                    </sub>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        </div>
+</body>
+
+</html>
